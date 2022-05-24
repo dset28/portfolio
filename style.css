@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+/* .container {
+    min-width: 450px;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+} */
+
+a {
+    text-decoration: none;
+}
+
+/* titik mulai */
+.bg {
+    background-image: url(img/Background.png);
+    width: 95%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+}
+
+.header {
+    background-color: white;
+    line-height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    padding: 0 50px;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .container .navbar ul li {
+    padding-top: 10px;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.header .container .navbar ul li:hover {
+    color: #458FF6;
+    cursor: pointer;
+}
+
+.header .container .navbar ul li:active {
+    color: #582df3;
+}
+
+.header .container .menu-icon {
+    padding: 15px 0px;
+    font-size: 23px;
+    display: none;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin-top: 80px;
+}
+
+.jumbotron .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.jumbotron .container .diri {
+    flex: 35%;
+    padding-right: 25px;
+}
+
+.jumbotron .container .gambar1 {
+    flex: 5%;
+}
+
+.jumbotron .container .gambar1 .img{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+.jumbotron .container .btn-dl {
+    margin-top: 10px;
+    background-color: #458FF6;
+    color: transparent;
+    border: 4px solid;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 12px 24px;
+    margin-left: 40px;
+}
+
+.jumbotron .container .btn-dl a {
+    color: #FFFFFF;
+
+}
+
+/* Passion */
+.passion {
+    margin-top: 50px; 
+    width: 100%;
+    text-align: center;
+}
+
+.passion .container .passions-judul {
+    padding-top: 25px;
+}
+
+.passion .container .konten-item {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.passion .container .konten-item .icon-item {
+    margin: 0 55px;
+    position: relative;
+}
+
+
+/* Portfolio */
+.portfolio {
+    margin-top: 20px; 
+    width: 100%;
+    text-align: center;
+    height: 500px;
+}
+
+.portfolio .container .portfolio-judul {
+    padding-top: 25px;
+}
+
+.portfolio .container .konten-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.portfolio .container .konten-item .portfolio-konten {
+    margin: 0 55px;
+    position: relative;
+    border: 2px solid silver;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.portfolio .container .konten-item .portfolio-konten img {
+    width: 200px;
+    height: 200px;
+}
+
+.portfolio .container .konten-item .portfolio-konten h2 {
+    font-size: 12px;
+    text-align: left;
+}
+
+/* Kontak */
+.kontak {
+    width: 100%;
+    text-align: center;
+    height: 600px;
+    background-image: url(img/wave.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.kontak .container .kontak-judul {
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.kontak .container .konten-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.kontak .container .konten-item .kontak-konten {
+    margin: 0 25px;
+    position: relative;
+    padding: 20px;
+}
+
+/* Footer */
+.footer .footer-bg img {
+    width: 100%;
+}
