@@ -21,6 +21,14 @@ a {
     text-decoration: none;
 }
 
+b {
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-weight: lighter;
+}
+
 /* titik mulai */
 .bg {
     background-image: url(img/Background.png);
@@ -95,6 +103,10 @@ a {
 .jumbotron .container .diri {
     flex: 35%;
     padding-right: 25px;
+}
+
+.jumbotron .container .diri .dtdiri {
+    font-weight: bold;
 }
 
 .jumbotron .container .gambar1 {
